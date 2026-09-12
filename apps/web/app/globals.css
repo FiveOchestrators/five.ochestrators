@@ -44,7 +44,7 @@ body::before {
   pointer-events: none;
   background: url("./grain.svg") repeat;
   background-size: 180px 180px;
-  opacity: .09;
+  opacity: .24;
 }
 
 a {
