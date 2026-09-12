@@ -40,9 +40,7 @@ export default function Home() {
       <section className="hero grid-surface" id="top">
         <div className="hero-glow" aria-hidden="true" />
         <div className="hero-brand"><BrandMark /></div>
-        <div className="eyebrow"><span /> THE STRONGEST AI DEVELOPMENT TEAM</div>
         <h1>Five.Ochstrators</h1>
-        <p className="hero-tagline">Five perspectives. One decisive build.</p>
         <p className="hero-copy">
           We strive for strong AI Native Development on the top of the right foundation
         </p>
@@ -65,7 +63,6 @@ export default function Home() {
 
       <section className="system-section grid-surface" id="system">
         <div className="section-heading">
-          <p className="kicker">ONE OPERATING SYSTEM</p>
           <h2>Built to move from ambiguity to shipped software.</h2>
           <p>Every perspective stays distinct. Every decision moves toward the same outcome.</p>
         </div>
@@ -111,10 +108,40 @@ export default function Home() {
         </a>
       </section>
 
-      <footer>
-        <a className="brand footer-brand" href="#top"><BrandMark /><span>Five.Ochstrators</span></a>
-        <p>© {new Date().getFullYear()} Five.Ochstrators</p>
-        <p>Seoul, South Korea</p>
+      <footer className="site-footer">
+        <div className="footer-layout">
+          <nav className="footer-column" aria-label="Our process">
+            <h2>OUR PROCESS</h2>
+            <ul>{phases.map((phase) => <li key={phase}><a href="#system">{phase}</a></li>)}</ul>
+          </nav>
+          <nav className="footer-column" aria-label="Our foundation">
+            <h2>FOUNDATION</h2>
+            <ul>
+              <li><a href="#principles">Think in systems</a></li>
+              <li><a href="#principles">Build in the open</a></li>
+              <li><a href="#principles">Ship with evidence</a></li>
+            </ul>
+          </nav>
+          <nav className="footer-column" aria-label="Resources">
+            <h2>RESOURCES</h2>
+            <ul>
+              <li><a href="https://github.com/FiveOchestrators/five.ochestrators">Source code ↗</a></li>
+              <li><a href="https://github.com/FiveOchestrators/five.ochestrators#readme">Readme ↗</a></li>
+              <li><a href="https://github.com/FiveOchestrators/five.ochestrators/issues">Issues ↗</a></li>
+            </ul>
+          </nav>
+          <div className="footer-column footer-company">
+            <h2>FIVE.OCHSTRATORS</h2>
+            <div className="footer-company-content">
+              <a className="footer-company-link" href="https://github.com/FiveOchestrators">Our team ↗</a>
+              <a className="button button-primary" href="https://github.com/FiveOchestrators">Explore GitHub <GitHubIcon /></a>
+              <a className="footer-back" href="#top">Back to top ↑</a>
+              <a className="footer-contact" href="mailto:junwonkim04@outlook.com">Contact Email:<br />junwonkim04@outlook.com</a>
+              <div className="footer-meta"><p>Seoul, South Korea</p><p>© {new Date().getFullYear()} Five.Ochstrators</p></div>
+            </div>
+          </div>
+          <a className="footer-wordmark" href="#top" aria-label="Five.Ochstrators home"><BrandMark /><span>Five.Ochstrators</span></a>
+        </div>
       </footer>
     </main>
   );
