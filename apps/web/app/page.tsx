@@ -71,10 +71,6 @@ export default function Home() {
         </div>
 
         <div className="orchestration-card">
-          <div className="card-topline">
-            <span>FIVE / ONE</span>
-            <span className="status"><i /> SYSTEM ONLINE</span>
-          </div>
           <div className="orbit-map" aria-label="Five disciplines converging into one shipped outcome">
             <OrbitGlyph />
             {phases.map((phase, index) => (
@@ -86,10 +82,6 @@ export default function Home() {
               <BrandMark compact />
               <span>SHIP</span>
             </div>
-          </div>
-          <div className="card-footer">
-            <span>INPUT / A hard problem</span>
-            <span>OUTPUT / A verified release</span>
           </div>
         </div>
       </section>

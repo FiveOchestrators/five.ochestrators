@@ -303,7 +303,6 @@ a {
 
 .phase span {
   color: #597175;
-  font-family: Consolas, monospace;
   font-size: 0.72rem;
 }
 
@@ -362,42 +361,6 @@ a {
   overflow: hidden;
 }
 
-.card-topline,
-.card-footer {
-  min-height: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 22px;
-  color: #739094;
-  font-family: Consolas, monospace;
-  font-size: 0.7rem;
-  letter-spacing: 0.1em;
-}
-
-.card-topline {
-  border-bottom: 1px solid var(--line);
-}
-
-.card-footer {
-  border-top: 1px solid var(--line);
-}
-
-.status {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--mint);
-}
-
-.status i {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--mint);
-  box-shadow: 0 0 12px var(--mint);
-}
-
 .orbit-map {
   position: relative;
   height: 610px;
@@ -432,7 +395,6 @@ a {
   background: rgba(7, 19, 23, 0.7);
   color: var(--paper);
   box-shadow: 0 0 70px rgba(113, 208, 193, .17);
-  font-family: Consolas, monospace;
   font-size: 0.68rem;
   letter-spacing: 0.2em;
 }
@@ -452,7 +414,6 @@ a {
 
 .orbit-node span {
   color: #668388;
-  font-family: Consolas, monospace;
   font-size: 0.65rem;
 }
 
@@ -499,7 +460,6 @@ a {
 
 .principle > span {
   color: #527075;
-  font-family: Consolas, monospace;
   font-size: 0.75rem;
 }
 
@@ -718,19 +678,6 @@ footer p:last-child {
 
   .section-heading > p:last-child {
     margin-left: 0;
-  }
-
-  .card-topline,
-  .card-footer {
-    padding: 0 15px;
-    font-size: .61rem;
-  }
-
-  .card-footer {
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    gap: 4px;
   }
 
   .orbit-map {
