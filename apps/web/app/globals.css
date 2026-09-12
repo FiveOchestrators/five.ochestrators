@@ -1,16 +1,15 @@
 :root {
-  --ink: #071317;
+  --ink: #193536;
   --ink-soft: #0a1a1f;
   --panel: #0c2025;
   --panel-high: #102a30;
-  --paper: #eef2eb;
-  --muted: #95aaa9;
+  --paper: #ffffff;
+  --muted: #b6cac9;
   --line: rgba(179, 220, 213, 0.13);
   --line-strong: rgba(179, 220, 213, 0.24);
   --mint: #8ed9ce;
   --mint-bright: #b7eee5;
   --coral: #f58968;
-  --mark-cut: var(--ink);
 }
 
 * {
@@ -24,7 +23,7 @@ html {
 
 body {
   margin: 0;
-  background: var(--ink);
+  background: linear-gradient(90deg, rgba(16, 35, 29, .3), rgba(9, 49, 60, .12)), url("./brand-texture.png") repeat;
   color: var(--paper);
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -75,7 +74,7 @@ a {
 .brand-mark {
   width: 32px;
   height: 32px;
-  color: var(--paper);
+  color: #fff;
   flex: none;
 }
 
@@ -105,11 +104,17 @@ a {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  background-image:
-    linear-gradient(var(--line) 1px, transparent 1px),
-    linear-gradient(90deg, var(--line) 1px, transparent 1px);
-  background-size: clamp(78px, 9.5vw, 182px) clamp(78px, 9.5vw, 182px);
-  background-position: center top;
+  background: linear-gradient(110deg, rgba(18, 37, 29, .18), rgba(12, 53, 68, .14));
+}
+
+.hero-brand {
+  margin-bottom: 36px;
+}
+
+.hero-brand .brand-mark {
+  display: block;
+  width: 100px;
+  height: 110px;
 }
 
 .hero {
@@ -130,7 +135,7 @@ a {
   position: absolute;
   z-index: -1;
   inset: 0;
-  background: linear-gradient(180deg, rgba(7, 19, 23, 0.76), rgba(7, 19, 23, 0.92));
+  background: linear-gradient(180deg, rgba(7, 19, 23, 0.04), rgba(7, 19, 23, 0.35));
 }
 
 .hero-glow {
@@ -143,7 +148,7 @@ a {
   transform: translateX(-50%);
   background:
     radial-gradient(circle at 35% 42%, rgba(84, 187, 171, 0.19), transparent 42%),
-    radial-gradient(circle at 66% 55%, rgba(245, 137, 104, 0.11), transparent 38%);
+    radial-gradient(circle at 66% 55%, rgba(49, 122, 153, 0.15), transparent 38%);
   filter: blur(20px);
 }
 
@@ -178,7 +183,7 @@ a {
 
 .hero h1 span {
   color: transparent;
-  background: linear-gradient(105deg, var(--paper) 20%, var(--mint) 55%, #e8a086 100%);
+  background: linear-gradient(105deg, var(--paper) 20%, #bde1d9 55%, #9ccbd5 100%);
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -292,7 +297,7 @@ a {
 }
 
 .system-section::before {
-  background: linear-gradient(180deg, rgba(7, 19, 23, 0.9), rgba(8, 25, 29, 0.77), rgba(7, 19, 23, 0.95));
+  background: linear-gradient(180deg, rgba(7, 19, 23, 0.35), rgba(8, 25, 29, 0.5), rgba(7, 19, 23, 0.35));
 }
 
 .section-heading {
@@ -504,7 +509,7 @@ a {
 .closing::before {
   background:
     radial-gradient(circle at 50% 48%, rgba(75, 169, 155, .13), transparent 35%),
-    linear-gradient(180deg, rgba(7, 19, 23, .9), rgba(7, 19, 23, .94));
+    linear-gradient(180deg, rgba(7, 19, 23, .35), rgba(7, 19, 23, .18));
 }
 
 .closing-mark {

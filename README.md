@@ -23,3 +23,9 @@ pnpm build
 ```
 
 The website is exported as static HTML to `apps/web/out` and deployed to GitHub Pages by the workflow in `.github/workflows/deploy-pages.yml`.
+
+After renaming the repository, run the deployment workflow again: Next.js embeds the repository base path at build time.
+
+## Brand assets
+
+`apps/web/public/logo.svg` and the shared `BrandMark` trace the white silhouette from the supplied original logo, preserving its proportions and rounded corners. The favicon uses the same silhouette. `apps/web/app/brand-texture.png` uses the original image's top 64 rows, mirrored at the edges for seamless repetition; it contains no generated texture or logo pixels.

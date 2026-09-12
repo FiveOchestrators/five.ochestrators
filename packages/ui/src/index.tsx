@@ -6,12 +6,11 @@ export function BrandMark({ compact = false }: BrandMarkProps) {
   return (
     <svg
       className={compact ? "brand-mark brand-mark-compact" : "brand-mark"}
-      viewBox="0 0 48 48"
+      viewBox="0 0 380 418"
       role="img"
       aria-label="Five Ochestrators hexagon mark"
     >
-      <path d="M24 3.5 42 13.9v20.2L24 44.5 6 34.1V13.9L24 3.5Z" fill="currentColor" />
-      <path d="M17.2 16.8h13.6v4H21v4h8.2v4H21v4.4h-3.8V16.8Z" fill="var(--mark-cut, #071317)" />
+      <path d="M194 1 L185 4 L31 74 L14 83 L6 92 L3 98 L2 105 L1 106 L1 294 L2 295 L2 299 L6 308 L12 315 L19 320 L186 410 L194 414 L201 416 L213 416 L220 414 L231 408 L361 327 L364 325 L374 314 L378 303 L378 89 L374 78 L364 67 L347 59 L221 6 L207 1Z" fill="currentColor" />
     </svg>
   );
 }

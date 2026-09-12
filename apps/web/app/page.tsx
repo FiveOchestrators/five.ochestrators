@@ -39,6 +39,7 @@ export default function Home() {
 
       <section className="hero grid-surface" id="top">
         <div className="hero-glow" aria-hidden="true" />
+        <div className="hero-brand"><BrandMark /></div>
         <div className="eyebrow"><span /> THE STRONGEST AI DEVELOPMENT TEAM</div>
         <h1>
           Five perspectives.<br />
