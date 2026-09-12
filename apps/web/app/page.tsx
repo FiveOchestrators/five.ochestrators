@@ -24,9 +24,9 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Five Ochestrators home">
+        <a className="brand" href="#top" aria-label="Five.Ochstrators home">
           <BrandMark />
-          <span>Five Ochestrators</span>
+          <span>Five.Ochstrators</span>
         </a>
         <nav aria-label="Primary navigation">
           <a href="#system">System</a>
