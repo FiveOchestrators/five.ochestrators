@@ -1,4 +1,4 @@
-# Five.Ochestrators
+# Five.O-chestrators
 
 The official web home of **The Strongest AI Development Team**.
 
