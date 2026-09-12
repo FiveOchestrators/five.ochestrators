@@ -3,9 +3,9 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Five Ochestrators — The Strongest AI Development Team",
+  title: "Five.Ochstrators — The Strongest AI Development Team",
   description:
-    "Five Ochestrators is an AI-native development team that explores, designs, builds, verifies, and ships as one.",
+    "Five.Ochstrators is an AI-native development team that explores, designs, builds, verifies, and ships as one.",
   icons: {
     icon: "./favicon.svg"
   }

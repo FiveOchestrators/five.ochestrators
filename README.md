@@ -28,4 +28,4 @@ After renaming the repository, run the deployment workflow again: Next.js embeds
 
 ## Brand assets
 
-`apps/web/public/logo.svg` and the shared `BrandMark` trace the white silhouette from the supplied original logo, preserving its proportions and rounded corners. The favicon uses the same silhouette. `apps/web/app/brand-texture.png` uses the original image's top 64 rows, mirrored at the edges for seamless repetition; it contains no generated texture or logo pixels.
+`apps/web/public/logo.svg` and the shared `BrandMark` trace the white silhouette from the supplied original logo, preserving its proportions and rounded corners. The favicon uses the same silhouette. The background combines CSS teal gradients with a subtle procedural SVG grain in `apps/web/app/grain.svg`.

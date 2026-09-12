@@ -41,12 +41,10 @@ export default function Home() {
         <div className="hero-glow" aria-hidden="true" />
         <div className="hero-brand"><BrandMark /></div>
         <div className="eyebrow"><span /> THE STRONGEST AI DEVELOPMENT TEAM</div>
-        <h1>
-          Five perspectives.<br />
-          <span>One decisive build.</span>
-        </h1>
+        <h1>Five.Ochstrators</h1>
+        <p className="hero-tagline">Five perspectives. One decisive build.</p>
         <p className="hero-copy">
-          We orchestrate strategy, design, engineering, and verification into one focused delivery system.
+          We strive for strong AI Native Development on the top of the right foundation
         </p>
         <div className="hero-actions">
           <a className="button button-primary" href="https://github.com/FiveOchestrators" target="_blank" rel="noreferrer">
@@ -114,7 +112,7 @@ export default function Home() {
 
       <section className="closing grid-surface">
         <div className="closing-mark"><BrandMark compact /></div>
-        <p>Five Ochestrators</p>
+        <p>Five.Ochstrators</p>
         <h2>Bring the hard problem.<br />We’ll build the way through.</h2>
         <a className="button button-primary" href="https://github.com/FiveOchestrators" target="_blank" rel="noreferrer">
           Meet us on GitHub <span aria-hidden="true">↗</span>
@@ -122,8 +120,8 @@ export default function Home() {
       </section>
 
       <footer>
-        <a className="brand footer-brand" href="#top"><BrandMark /><span>Five Ochestrators</span></a>
-        <p>© {new Date().getFullYear()} Five Ochestrators</p>
+        <a className="brand footer-brand" href="#top"><BrandMark /><span>Five.Ochstrators</span></a>
+        <p>© {new Date().getFullYear()} Five.Ochstrators</p>
         <p>Seoul, South Korea</p>
       </footer>
     </main>
