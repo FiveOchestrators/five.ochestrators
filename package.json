@@ -1,0 +1,12 @@
+{
+  "name": "five-orchestrators",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "pnpm --filter @five-orchestrators/web dev",
+    "build": "pnpm --filter @five-orchestrators/web build",
+    "start": "pnpm --filter @five-orchestrators/web start",
+    "typecheck": "pnpm --filter @five-orchestrators/web typecheck"
+  }
+}
